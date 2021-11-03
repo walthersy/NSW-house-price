@@ -27,7 +27,7 @@ We explored questions such as:
 - [x] Can we predict which postcodes will grow faster than average?
 
 
-# Lbraries and packages
+# Libraries and packages
 ```pyrex
 import pandas as pd
 import numpy as np
