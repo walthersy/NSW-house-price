@@ -2,7 +2,7 @@
 This repository is part of the assessment of COMP6200 - Data Science unit from Macquarie University.
 
 
-#### ℹ️   Group Members 
+#### ℹ️  &nbsp; Group Members 
 
 | Name                        | StudentID | <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> |
 | --------------------------- | --------- |-----------------------------------------------------------------------------|
@@ -13,6 +13,7 @@ This repository is part of the assessment of COMP6200 - Data Science unit from M
 
 Language used: <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width=20>
 
+<br> <br />
 # Project Summary 
 In this project, we have chosen to analyse the property prices in NSW, Australia. 
 
@@ -25,3 +26,45 @@ We explored questions such as:
 - [x] Can we predict prices based on socioeconomic data such as income levels, household size, or interest rates?
 - [x] Can we predict which postcodes will grow faster than average?
 
+
+# Lbraries and packages
+```pyrex
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import seaborn as sns
+import os
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neural_network import MLPClassifier
+
+from sklearn.cluster import KMeans
+from scipy.cluster.hierarchy import linkage
+from scipy.cluster.hierarchy import dendrogram
+from scipy.cluster.hierarchy import cut_tree
+
+from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
+from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold
+from sklearn.feature_selection import RFE
+from sklearn.metrics import accuracy_score, r2_score, mean_squared_error, confusion_matrix
+
+import geopandas as gpd
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from shapely.geometry import Point, Polygon
+```
+
+Other packages are also required to be installed:
+```
+pip install geopandas
+pip install -U mapclassify
+```
+
+# Notebook Structure
+
+* **Main Notebook** - This is where the codes for the main part of the analysis and predictive modelling are
+* **Data Preparation Pt1 (NSW Housing data)** - This notebook is where we cleaned all the files for the NSW Housing data
+* **Data Preparation Pt2 (Feature data)** - This notebook is where we cleaned all the features that we used
+* **Variable Analysis** - This is where we deep-dive into the analysis of all the variables
