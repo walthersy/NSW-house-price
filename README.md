@@ -1,3 +1,4 @@
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pandas?style=for-the-badge)
 # NSW Housing Data 🏘️ 🇦🇺
 This repository is part of the assessment of COMP6200 - Data Science unit from Macquarie University.
 
@@ -11,7 +12,6 @@ This repository is part of the assessment of COMP6200 - Data Science unit from M
 |  Ken Walther Sy             |  46162291 | [Ken's](https://www.linkedin.com/in/walthersy/)                             |
 |  Jingran Zhao               |  46317848 | [Jingran's](https://www.linkedin.com/in/alexis-zhao-3a541940/)              |
 
-Language used: <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width=20>
 
 <br> <br />
 # Project Summary 
