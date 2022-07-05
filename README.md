@@ -25,7 +25,34 @@ We explored questions such as:
 - [x] Can we predict prices based on socioeconomic data such as income levels, household size, or interest rates?
 - [x] Can we predict which postcodes will grow faster than average?
 
+# Data Preparation
+![Data Prep](Files/Images/Data_Prep.png)
 
+We collected datasets from:
+- [NSW Family & Community Services](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/back-issues)
+- [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/microdata-tablebuilder/tablebuilder) 
+- [Reserve Bank of Australia](https://www.rba.gov.au/)
+
+These are cleaned under the *Data Preparation Notebooks*.
+
+# Variable Relationships
+![Variable analysis](Files/Images/Var_Correlation.png)
+
+In-depth analysis covered under *Main Notebook.ipynb*
+
+# Top Predictors of House Prices in NSW
+<img src="./Files/Images/Top_Predictors.png" width=400>
+
+# Which postcodes will grow more than 5% in the next quarter?
+<img src="./Files/Images/Which_postcodes.png">
+
+Apparently, there are several postcodes outside of Sydney that are projected to grow more than 5% in the following quarter.
+
+
+# Among these high growth areas, which are the cheapest?
+<img src="./Files/Images/Cheapest_postcodes.png">
+
+These are postcodes have the lowest median house prices that are projected to grow more than 5% in the following quarter. This piece of insight can be very valuable especially for first-time home buyers looking into the real estate market.
 
 
 # Libraries and packages
