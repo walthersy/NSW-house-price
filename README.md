@@ -1,16 +1,15 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pandas?style=for-the-badge)
 # NSW Housing Data 🏘️ 🇦🇺
-This repository is part of the assessment of COMP6200 - Data Science unit from Macquarie University.
 
 
-#### ℹ️  &nbsp; Group Members 
+#### ℹ️  &nbsp; Team Members 
 
-| Name                        | StudentID | <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> |
-| --------------------------- | --------- |-----------------------------------------------------------------------------|
-|  Felix Rosenberger          |  46165991 | [Felix's](https://www.linkedin.com/in/felix-rosenberger-1522761b3/)         |
-|  Christopher Rudolph        |  45241805 | [Christopher's](https://www.linkedin.com/in/christopher-rudolph-b6bb868b/)  |
-|  Ken Walther Sy             |  46162291 | [Ken's](https://www.linkedin.com/in/walthersy/)                             |
-|  Jingran Zhao               |  46317848 | [Jingran's](https://www.linkedin.com/in/alexis-zhao-3a541940/)              |
+| Name                    | <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> |
+| ------------------------|-----------------------------------------------------------------------------|
+|  Felix Rosenberger      | [Felix's](https://www.linkedin.com/in/felix-rosenberger-1522761b3/)         |
+|  Christopher Rudolph    | [Christopher's](https://www.linkedin.com/in/christopher-rudolph-b6bb868b/)  |
+|  Ken Walther Sy         | [Ken's](https://www.linkedin.com/in/walthersy/)                             |
+|  Jingran Zhao           | [Jingran's](https://www.linkedin.com/in/alexis-zhao-3a541940/)              |
 
 
 <br> <br />
@@ -25,6 +24,8 @@ We explored questions such as:
 - [x] Where should one buy a home?
 - [x] Can we predict prices based on socioeconomic data such as income levels, household size, or interest rates?
 - [x] Can we predict which postcodes will grow faster than average?
+
+
 
 
 # Libraries and packages
